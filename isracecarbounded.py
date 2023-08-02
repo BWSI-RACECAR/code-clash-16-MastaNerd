@@ -62,9 +62,9 @@ class Solution:
             for i in instructions:
                 if i == "G":
                     g_counter += 1
-                elif i == "G":
+                elif i == "R":
                     r_counter += 1
-                elif i == "G":
+                elif i == "L":
                     l_counter += 1
             if l_counter == r_counter:
                 return False
